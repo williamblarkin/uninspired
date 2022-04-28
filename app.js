@@ -10,3 +10,16 @@ fetch('https://williamblarkin.github.io/quitter-api/quotes.json')
     console.log(json[rand].author);
     console.log(rand);
   })
+
+photoArray = [
+  "url('photos/1.jpg')",
+  "url('photos/2.jpg')",
+  "url('photos/3.jpg')",
+  "url('photos/4.jpg')",
+  "url('photos/5.jpg')",
+  "url('photos/6.jpg')",
+  "url('photos/7.jpg')"
+]
+
+const randPic = Math.floor(Math.random() * 7)
+document.body.style.backgroundImage = photoArray[randPic];
