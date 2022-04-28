@@ -1,0 +1,19 @@
+body {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-image: url('/photos/1.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+#container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  backdrop-filter: blur(2px);
+}
